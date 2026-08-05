@@ -1,89 +1,107 @@
 # 🚀 Daily Coding Challenges
 
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
+![GitHub](https://img.shields.io/badge/GitHub-Daily%20Commits-success)
+![DSA](https://img.shields.io/badge/DSA-Problem%20Solving-blue)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
 Welcome to my **Daily Coding Challenges** repository!
 
-This repository documents my journey of improving my problem-solving skills, JavaScript knowledge, and frontend development concepts through consistent daily practice.
+This repository is my personal coding journey where I practice **Data Structures & Algorithms (DSA)** and **JavaScript concepts** every day. My goal is to become a better problem solver, strengthen my JavaScript fundamentals, and prepare for Frontend/MERN Stack interviews through consistent practice.
 
-## 🎯 Challenge Goal
+---
 
-- Solve at least one coding problem every day.
-- Practice important JavaScript concepts.
-- Strengthen Data Structures & Algorithms (DSA).
-- Improve problem-solving and logical thinking.
-- Maintain consistency by committing code to GitHub daily.
+## 🎯 Challenge Goals
+
+- 📌 Solve at least one DSA problem every day.
+- 📌 Practice one important JavaScript concept daily.
+- 📌 Improve problem-solving and logical thinking.
+- 📌 Learn interview-focused frontend concepts.
+- 📌 Maintain a consistent GitHub contribution streak.
+- 📌 Document my learning journey.
 
 ---
 
 ## 📂 Repository Structure
 
-```
+```text
 daily-coding-challenges/
+│
+├── README.md
 │
 ├── dsa-imp-problems/
 │   ├── arrays/
 │   ├── strings/
-│   ├── linked-list/
-│   ├── stack/
 │   └── ...
 │
 ├── front-end-imp-topics/
 │   ├── debouncing.js
 │   ├── promises.js
 │   ├── closures.js
-│   ├── deepCloneNestedObj.js
+│   ├── groupObjectByKeys.js
 │   ├── flattenNestedArray.js
+│   ├── deepCloneNestedObj.js
 │   └── ...
 │
-└── README.md
+└── .gitignore
 ```
 
 ---
 
-## 📚 Topics Covered
+# 🧠 DSA Progress
 
-### 💻 JavaScript
-- Debouncing
+| Day | Problem | Status |
+|------|---------|--------|
+| Day 001 | Character Occurrence | ✅ |
+| Day 001 | Longest Common Prefix | ✅ |
+| Day 002 | Move Zeroes | ✅ |
+| Day 003 | Missing Number | ✅ |
+| Day 003 | Intersection of Two Arrays | ✅ |
+
+---
+
+# 💻 JavaScript Progress
+
+| Day | Concept | Status |
+|------|---------|--------|
+| Day 001 | Array.reduce() | ✅ |
+| Day 002 | Promises | ✅ |
+| Day 002 | Closures | ✅ |
+| Day 003 | Debouncing | ✅ |
+
+---
+
+# 📚 Topics Covered
+
+### JavaScript
+
+- ES6+
+- Array Methods
+- Reduce
 - Promises
-- Async/Await
+- Async / Await
 - Closures
-- Deep Clone
-- Flatten Nested Array
-- Group Objects
-- Event Loop
-- Polyfills
-- Currying
-- Throttling
-- And many more...
+- Debouncing
+- Throttling *(Coming Soon)*
+- Event Loop *(Coming Soon)*
+- Polyfills *(Coming Soon)*
 
-### 🧠 Data Structures & Algorithms
+### DSA
+
 - Arrays
 - Strings
 - HashMap
 - Two Pointers
-- Sliding Window
-- Stack
-- Queue
-- Linked List
-- Trees
-- Graphs
-- Dynamic Programming
-- Greedy Algorithms
+- Sliding Window *(Coming Soon)*
+- Stack *(Coming Soon)*
+- Queue *(Coming Soon)*
+- Linked List *(Coming Soon)*
+- Trees *(Coming Soon)*
+- Dynamic Programming *(Coming Soon)*
 
 ---
 
-## 🎯 Why This Repository?
-
-The goal of this repository is to:
-
-- Build consistency through daily coding.
-- Prepare for frontend and MERN stack interviews.
-- Improve JavaScript fundamentals.
-- Practice DSA patterns frequently.
-- Track learning progress over time.
-
----
-
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 - JavaScript (ES6+)
 - Node.js
@@ -93,21 +111,62 @@ The goal of this repository is to:
 
 ---
 
-## 📅 Progress
+# 🎯 Why This Repository?
 
-| Day | Topics |
-|-----|--------|
-| Day 001 | Group Objects by Department using `reduce()` |
-| Day 002 | Promises, Character Occurrence, Longest Common Prefix, Closures |
+This repository helps me:
 
----
-
-## 📈 Learning Philosophy
-
-> "Consistency beats intensity."
-
-The objective isn't to solve hundreds of problems in a few days—it's to improve every single day through consistent practice.
+- Improve coding consistency.
+- Strengthen JavaScript fundamentals.
+- Prepare for Frontend and MERN Stack interviews.
+- Practice DSA regularly.
+- Track my learning progress.
 
 ---
 
-⭐ Feel free to explore the solutions and follow along with my coding journey!
+# 📈 Current Progress
+
+- ✅ 6 DSA Problems Solved
+- ✅ 4 JavaScript Concepts Practiced
+- ✅ Daily GitHub Commits
+- ✅ Continuous Learning
+
+---
+
+# 🚀 Upcoming Topics
+
+### DSA
+
+- Two Sum
+- Contains Duplicate
+- Valid Anagram
+- Valid Parentheses
+- Merge Intervals
+- Product of Array Except Self
+- Best Time to Buy & Sell Stock
+- Group Anagrams
+
+### JavaScript
+
+- Throttling
+- Event Loop
+- `this` Keyword
+- Call, Apply & Bind
+- Currying
+- Polyfills
+- Prototype & Inheritance
+
+---
+
+# 💡 Learning Philosophy
+
+> **"Consistency beats perfection."**
+
+My goal isn't to solve hundreds of problems in a short time—it's to improve every day through consistent practice and build a strong foundation.
+
+---
+
+## ⭐ Connect With Me
+
+If you find this repository helpful or interesting, feel free to explore the solutions and follow my coding journey.
+
+Happy Coding! 🚀
