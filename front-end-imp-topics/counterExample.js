@@ -5,7 +5,7 @@ function createCounter(){
     return function(){
 
         count++;
-        return count; // inner function remember outer function variable even after outer function execution is completed --> closure
+        return count; // inner function remember variables from outer function even after outer function execution is completed --> closure
 
     }
 
