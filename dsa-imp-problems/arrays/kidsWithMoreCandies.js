@@ -44,7 +44,7 @@ function kidsWithMoreCandies(candies, extraCandies){
 
     // check each kids:
     for(let i=0; i<candies.length; i++){
-        result.push(candies[i]+extraCandies >= maxCan);
+        result.push(candies[i] + extraCandies >= maxCan );
     }
 
     return result;
