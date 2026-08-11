@@ -1,3 +1,17 @@
+// Approach:
+// 1. Create an empty stack to store surviving asteroids.
+// 2. Traverse the asteroid array from left to right.
+// 3. Store the current asteroid in a variable.
+// 4. Use a destroyed flag to track whether the current asteroid gets destroyed.
+// 5. A collision is possible only when the stack top is positive and the current asteroid is negative.
+// 6. Compare the absolute sizes of the two colliding asteroids.
+// 7. If the stack top is smaller, remove it and continue checking for another collision.
+// 8. If both asteroids have equal size, remove the stack top and destroy the current asteroid.
+// 9. If the stack top is larger, destroy the current asteroid.
+// 10. If the current asteroid survives, push it into the stack.
+// 11. Return the stack containing the surviving asteroids.
+
+
 function asteroidCollision(asteroids){
 
     let stack = [];
