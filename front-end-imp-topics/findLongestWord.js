@@ -22,10 +22,10 @@
 
 let str = "I love to solve programming";
 
-let resut = str.split(" ").reduce((acc, ele)=>{
+let result = str.split(" ").reduce((acc, ele)=>{
 
     return acc.length > ele.length ? acc : ele;
 
 });
 
-console.log(resut);
+console.log(result);
