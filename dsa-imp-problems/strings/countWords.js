@@ -10,7 +10,7 @@ let str = "I  love  to   solve    problem";
 
 let strUpdated = str.trim().split(/\s+/);
 
-let count = 0
+let count = 0;
 
 for(let i=0; i<strUpdated.length; i++){
     count++;
