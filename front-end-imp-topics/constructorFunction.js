@@ -8,7 +8,7 @@
 
 
 function student(name, age, city){
-    
+
     this.name = name;
     this.age = age;
     this.city = city;
@@ -17,6 +17,8 @@ function student(name, age, city){
 
 const student1 = new student("Ilan", 4, "Bangalore");
 const student2 = new student("Guhan", 3, "Tanjore");
+const student3 = new student("Karthick", 6, "Coimbatore");
+
 
 console.log(student1);
 console.log(student2);
