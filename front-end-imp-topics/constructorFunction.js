@@ -1,3 +1,12 @@
+// 1. Create a new empty object
+//         ↓
+// 2. Link that object to student.prototype
+//         ↓
+// 3. Call student() with this = new object
+//         ↓
+// 4. Return the new object
+
+
 function student(name, age, city){
     
     this.name = name;
