@@ -1,3 +1,12 @@
+// Approach:
+// 1. Create an empty object to store the frequency of each element.
+// 2. Traverse the array and count how many times each element occurs.
+// 3. Traverse the array again in the original order.
+// 4. Check whether the current element has a frequency of 1.
+// 5. Return the first element whose frequency is 1.
+// 6. If no non-repeating element exists, return -1.
+
+
 function firstNonRepeatingElement(arr){
 
     let result = {};
