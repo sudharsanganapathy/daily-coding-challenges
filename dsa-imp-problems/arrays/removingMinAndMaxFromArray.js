@@ -1,3 +1,26 @@
+// Find the length of the array
+
+// Find the minimum value in the array
+
+// Find the maximum value in the array
+
+// Find the index of the minimum element
+
+// Find the index of the maximum element
+
+// Calculate the number of deletions needed if both minimum and maximum are removed from the left
+
+// Calculate the number of deletions needed if both minimum and maximum are removed from the right
+
+// Calculate the deletions needed by removing the minimum from the left and maximum from the right
+
+// Calculate the deletions needed by removing the maximum from the left and minimum from the right
+
+// Compare all possible deletion counts
+
+// Return the minimum number of deletions
+
+
 function removingMinAndMaxFromArray(nums){
 
     let n = nums.length;
