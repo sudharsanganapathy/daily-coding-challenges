@@ -1,8 +1,4 @@
-// class Student → creates a blueprint for student objects.
-// constructor(name, age) → initializes each object's properties.
-// this.name / this.age → stores values in the newly created object.
-// new Student(...) → creates separate Student objects.
-// s1 to s5 → each object has its own name and age.
+//Create a class → define constructor → assign properties using this → create objects using new → print the objects.
 
 
 class Student{
