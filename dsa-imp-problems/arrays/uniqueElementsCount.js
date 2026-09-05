@@ -1,3 +1,10 @@
+// Create an empty object to store the frequency of each element
+// Traverse the array and count how many times each element occurs
+// Traverse the array again to find elements whose frequency is exactly one
+// Increment the unique element count for every non-repeating element
+// Return the total number of unique elements
+
+
 function uniqueElementCount(arr){
 
     const result = {};
