@@ -1,3 +1,12 @@
+// Store the first array element as the initial minimum and maximum
+// Traverse through the array and compare each element with the current maximum
+// Update the maximum value when a larger element is found
+// Compare each element with the current minimum
+// Update the minimum value when a smaller element is found
+// Calculate the difference between the maximum and minimum values
+// Display the final difference
+
+
 function diffBtwMinAndMax(arr){
 
     let minVal = arr[0];
