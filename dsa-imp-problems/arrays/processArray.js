@@ -1,3 +1,13 @@
+// Flatten the nested array completely
+// Traverse the flattened array using its index
+// Square the number when the index is even
+// Cube the number when the index is odd
+// Traverse the transformed array
+// Check whether each number is divisible by 5
+// Add the divisible numbers to the sum
+// Return the final sum
+
+
 function processArray(arr){
 
     let flatArray = arr.flat(Infinity);
