@@ -1,3 +1,11 @@
+// Initialize a candidate element and its count
+// Traverse through every element in the array
+// If the count becomes zero, choose the current element as the new candidate
+// Increase the count when the current element matches the candidate
+// Decrease the count when the current element differs from the candidate
+// Return the final candidate as the majority element
+
+
 function majorityElements(nums){
 
     let candidate = 0;
