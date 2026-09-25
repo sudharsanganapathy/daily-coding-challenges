@@ -4,7 +4,7 @@
 // Increment the frequency of the current element
 // Store the current frequency if the element becomes the most frequent
 // Update the maximum frequent element
-// Return the element with the highest frequency
+// Return the element with the highest frequency.
 
 
 function maxFrequent(arr){
