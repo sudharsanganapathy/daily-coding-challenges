@@ -1,3 +1,12 @@
+// Create an empty object to store the frequency of each element
+// Initialize variables to track the element with the highest frequency
+// Traverse through each element of the array
+// Increment the frequency of the current element
+// Store the current frequency if the element becomes the most frequent
+// Update the maximum frequent element
+// Return the element with the highest frequency
+
+
 function maxFrequent(arr){
 
   let result = {};
