@@ -1,3 +1,18 @@
+// Create a function that accepts an array
+// Initialize first as -Infinity to find the largest element
+// Initialize second as -Infinity to find the second largest element
+// Loop through every element in the array
+// If the current element is greater than first
+// Move the current first value to second
+// Update first with the current element
+// Otherwise, check if the current element is greater than second
+// Also make sure the current element is not equal to first
+// If true, update second with the current element
+// After the loop, check if second is still -Infinity
+// If it is, there is no second largest distinct element
+// Otherwise, return second
+
+
 function secondLargest(arr){
 
     let first = -Infinity;
