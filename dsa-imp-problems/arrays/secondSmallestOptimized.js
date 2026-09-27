@@ -1,3 +1,13 @@
+// Initialize first and second smallest values as Infinity
+// Traverse through each element of the array
+// If the current element is smaller than the first smallest value, update both values
+// Store the previous first smallest value as the second smallest
+// Otherwise, check whether the current element is between the first and second smallest values
+// Update the second smallest value when a smaller distinct value is found
+// Return null if a second distinct smallest element does not exist
+// Otherwise, return the second smallest value
+
+
 function secondSmallest(arr){
 
   let first = Infinity;
