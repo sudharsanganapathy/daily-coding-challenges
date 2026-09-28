@@ -1,3 +1,18 @@
+// Create an object to store products in different expiry categories
+// Convert the current date string into a Date object
+// Traverse through every product
+// Convert the product expiry date into a Date object
+// Check whether the expiry date is missing or invalid
+// Add products with invalid or missing dates to the unknown category
+// Calculate the difference between the expiry date and current date in milliseconds
+// Convert the time difference from milliseconds into days
+// Categorize the product as expired when fewer than zero days remain
+// Categorize the product as critical when seven or fewer days remain
+// Categorize the product as warning when thirty or fewer days remain
+// Categorize the product as safe when more than thirty days remain
+// Return the categorized inventory.
+
+
 function categorizeInventory(products, currentDate){
 
   let result = {
