@@ -17,26 +17,35 @@ function minAddToMakeValid(s){
 
         let char = s[i];
 
+        // If we find an opening parenthesis,
+        // increase the number of unmatched openings
         if(char==="("){
             open++;
         }
 
+        // If we find a closing parenthesis
         else{
 
+            // If an opening parenthesis is available, use it to match the current closing parenthesis
             if(open > 0){
                 open--;
-            }else{
+            }
+            
+            // Otherwise, we need to insert an opening parenthesis
+            else{
                 ans++;
             }
 
         }
     }
+
+    // Any remaining opening parentheses need closing parentheses
     ans+=open;
+
     return ans;
 }
 
 console.log(minAddToMakeValid(")()"));
 console.log(minAddToMakeValid(")()()(()"));
 console.log(minAddToMakeValid("()))(("));
-
 
