@@ -30,4 +30,4 @@ function countWords(str){
 
 console.log(countWords("I love JavaScript"));
 console.log(countWords("I   love   JavaScript"));
-console.log(countWords("   I love JavaScript   "));
+console.log(countWords("   I love JavaScript  "));
